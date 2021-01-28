@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_rockets">
+
+    <fragment
+        android:id="@+id/nav_rockets"
+        android:name="cz.tomashavlicek.space_x.ui.rockets.RocketsFragment"
+        android:label="@string/menu_rockets"
+        tools:layout="@layout/fragment_rockets" >
+        <action
+            android:id="@+id/action_nav_rockets_to_rocketDetailFragment"
+            app:destination="@id/rocketDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/rocketDetailFragment"
+        android:name="cz.tomashavlicek.space_x.ui.rockets.RocketDetailFragment"
+        android:label="RocketDetailFragment" >
+        <argument
+            android:name="rocketId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_launches"
+        android:name="cz.tomashavlicek.space_x.ui.launches.LaunchesFragment"
+        android:label="@string/menu_launches"
+        tools:layout="@layout/fragment_launches"/>
+</navigation>

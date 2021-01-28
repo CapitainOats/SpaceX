@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Space-X</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_rockets">Rockets</string>
+    <string name="menu_launches">Launches</string>
+
+    <string name="show_all">Show all</string>
+    <string name="show_past">Past</string>
+    <string name="show_upcoming">Upcoming</string>
+    <string name="show_latest">Latest</string>
+    <string name="show_next">Next</string>
+
+    <string name="retry">Retry</string>
+    <string name="unknown_error">Unknown Error</string>
+</resources>
